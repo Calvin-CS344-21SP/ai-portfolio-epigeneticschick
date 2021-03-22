@@ -37,5 +37,15 @@ We also strive for the sequence to make sense, but make no promises.
 * `006-compute-gradient`: Compute the gradient of a function.
 * `007-softmax`: Practice using the `softmax` function.
 * `008-softmax-2`: More practice using the `softmax` function, and connect it with the `sigmoid` function.
+* `009-linreg-learner`: Fit a linear regression by gradient descent.
 
 Notebooks will be added throughout the semester.
+
+
+# Errata
+
+Updating notebooks after distribution is hard because merge conflicts are highly likely. Instead, errata are listed here:
+
+* `000`
+    * Skip the "How many dogs were there in the dataset? How many cats?" question.
+    * Add `from fastbook import *` (or `from ipywidgets import widgets`) to be able to use `widgets.FileUpload()`.
